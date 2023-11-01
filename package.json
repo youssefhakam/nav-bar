@@ -1,0 +1,16 @@
+{
+    "name": "nav-bar",
+    "version": "1.0.0",
+    "main": "dist/navbar.js",
+    "description": "A custom navbar web component",
+    "scripts": {
+      "build": "webpack"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/youssefhakam/nav-bar.git"
+    },
+    "author": "Hakam Youssef",
+    "license": "MIT"
+  }
+  
