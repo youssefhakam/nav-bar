@@ -14,18 +14,19 @@ You can install `nav-bar` via npm:
 
 ```bash
 npm install nav-bar
-
+```
 ## Usage
 
 1. Import the `nav-bar` element in your HTML file.
 
-   ```html
-   <script type="module">
-     import "nav-bar";
-   </script>
+```html
+       <script type="module">
+        import "nav-bar";
+       </script>
+```
+   
 2. Use the nav-bar element in your HTML with customizable attributes.
-
-    ```html
+ ```html
     <nav-bar
         items="Home, Products, About, Contact"
         href_items="#home, #products, #about, #contact"
@@ -33,7 +34,7 @@ npm install nav-bar
         style_a="text-decoration: none; color: white;"
         default="false"
     ></nav-bar>
-
+```
 Attributes :
 
 items: Comma-separated list of navigation item labels.
@@ -42,9 +43,9 @@ style_nav: Custom styles for the navigation bar itself.
 style_a: Custom styles for the navigation links.
 default: Set to "true" to use default styles, or "false" to apply custom styles.
 
-##Examples
+## Examples
 Check the provided index.html file for usage examples and further customization.
 
-##Acknoledgments
+## Acknoledgments
 
 This project was inspired by the need for a simple and customizable navigation bar component.
