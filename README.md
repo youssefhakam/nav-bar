@@ -13,7 +13,7 @@
 You can install `nav-bar` via npm:
 
 ```bash
-npm install nav-bar
+npm install nav-component
 ```
 ## Usage
 
