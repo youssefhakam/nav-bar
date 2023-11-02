@@ -21,7 +21,7 @@ npm install nav-component
 
 ```html
        <script type="module">
-        import "nav-bar";
+        import "./navbar.js";
        </script>
 ```
    
